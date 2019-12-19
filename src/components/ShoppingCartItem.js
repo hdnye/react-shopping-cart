@@ -1,9 +1,9 @@
-import React, { useContext } from 'react';
-import CartContext  from '../contexts/CartContext';
+import React from 'react';
+// import CartContext  from '../contexts/CartContext';
 // import ProductContext from '../contexts/ProductContext';
 
 const Item = (props) => {
-	const { cart, itemRemoved} = useContext(CartContext);
+	// const { cart, itemRemoved} = useContext(CartContext);
 	// const { products } = useContext(ProductContext);
 
 	return (
